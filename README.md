@@ -18,7 +18,7 @@ Flask-SQLAlchemy (pip install flask-sqlalchemy)<br />
 Follow these steps to get the project running on your machine.<br />
 1. Clone or Download<br />
 If using Git, clone the project:<br />
-git clone https://github.com/sujal7746/Flask-ToDo-List<br />
+git clone https://github.com/sujal7746/ToDo-Flask <br />
 cd Flask-ToDo-List<br />
 Or download the project files and navigate to the todo_flask directory.<br />
 2. Install Dependencies<br />
