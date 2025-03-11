@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Update Task</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Update Task</h1>
+    <form method="POST" action="">
+        <input type="text" name="title" value="{{ task.title }}" placeholder="Task title">
+        <label>
+            <input type="checkbox" name="completed" {% if task.completed %}checked{% endif %}> Completed
+        </label>
+        <button type="submit">Save</button>
+    </form>
+    <a href="{{ url_for('index') }}">Back to List</a>
+</body>
+</html>
